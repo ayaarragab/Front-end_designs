@@ -1,0 +1,258 @@
+/*start container nav-first-page*/
+.container{
+    width: 80%;
+    margin: -10px;
+}
+.container.nav-first-page{
+    background-image: url(/img/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 110%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 90%;
+}
+.container.nav-first-page nav ul li{
+    width: 30%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.container.nav-first-page nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container.nav-first-page nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.container.nav-first-page nav ul .logo{
+    width: 30%;
+}
+.container.nav-first-page nav ul .logo a img{
+    padding-bottom: 5%;
+}
+.navlist{
+display: flex;
+flex-direction: row;
+width:35%;
+margin-left: 20%;
+}
+.black-layer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    height: 100%;
+    padding: 1.5% 1.5% 33% 0.5%;
+}
+.page-1{
+    margin: 5% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+}
+
+.page-1 h1{
+    color: white;
+    font-family: Alegreya,serif,monospace;
+    font-size: 70px;
+    margin: 0 0;
+}
+.page-1 h3, .page-1 p{
+    color: #d5d5d5;
+}
+.page-1 button{
+    width: 105px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 5px;
+}
+.page-1 button:nth-of-type(2){
+    background-color: transparent;
+    border-color: #ffffff;
+    border-style: solid;
+    color: #ffffff;
+}
+.page-1 button:nth-of-type(1){
+    background-color: #8e7754;
+    border: none;
+}
+/*end container nav-first-page*/
+/* Start container who-we-are */
+.container.who-we-are{
+    display: flex;
+    padding: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container.who-we-are .disc{
+    padding: 4%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container.who-we-are .disc p, .container.who-we-are .disc div{
+color: #717171;
+font-size: large;
+line-height:  1.9em;
+}
+.container.who-we-are .disc p{
+    line-height:  1.9em;
+}
+.container.who-we-are img{
+    width: 40%;
+    height: 50%;
+}
+.container.who-we-are .disc h1{
+    padding: 0;
+    margin: 0;
+}
+/* End container who-we-are */
+/* Start Out location */
+.container.our-location{
+    display: flex;
+    padding: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #fcfbfb;
+}
+.container.our-location .disc{
+    padding: 4%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container.our-location .disc p, .container.our-location .disc div{
+color: #717171;
+font-size: large;
+line-height:  1.9em;
+}
+.container.our-location .disc p{
+    line-height:  1.9em;
+}
+.container.our-location img{
+    width: 40%;
+    height: 50%;
+}
+.container.our-location .disc h1{
+    padding: 0;
+    margin: 0;
+}
+/* End our location */
+/* start container our-baking */
+.container.our-baking{
+    width: 100%;
+}
+.container.our-baking h1{
+    text-align: center;
+}
+.container.our-baking p:nth-of-type(1){
+    text-align: center;
+    color: #949393;
+}
+.bakings{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+}
+.bakings div{
+    width: 30%;
+}
+.bakings div p{
+    width: 80%;
+    line-height:   1.9em;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.bakings div h3{
+    text-align: center;
+    padding: 0;
+    margin-left: -55px;
+}
+.bakings div img{
+    width: 90%;
+}
+/* End container our-baking */
+/* Start container contact */
+.container.contact{
+    width: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 4%;
+}
+.container.contact .text{
+    padding: 2%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.9em;
+    font-size: larger;
+    
+}
+.text h3{
+    margin: 0;
+    padding: 0;
+}
+.container.contact .text p, .container.contact .text div{
+    text-align: center;
+    color: #949393;
+}
+.container.contact iframe{
+    width: 35%;
+    height: 510px;
+}
+/* End container contact */
+/* start container summary */
+.container.summary{
+    width: 105%;
+    background-color: #403d38;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:1100) {
+    .container.summary{
+        overflow: scroll;
+    }
+}
+.container.summary .column{
+    width: 27%;
+    margin-left: 3%;
+}
+.container.summary .column:nth-last-of-type(1){
+    margin-right: 7%;
+}
+.container.summary .column p{
+    color: #979797;
+    font-size: x-large;
+}
+.container.summary .column h3{
+color: #f8f8f8;
+}
+/* end container summary */
+/*Start footer*/
+.container.footer{
+    background-color: #33312c;
+    width: 105%;
+    padding: 4%;
+}
+.container.footer footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #979797;
+}
+.container.footer img{
+    width: 15%;
+}
+/*End footer*/

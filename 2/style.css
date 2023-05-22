@@ -1,0 +1,82 @@
+*{
+    font-family: 'Montserrat', sans-serif;  
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+html{
+    background-image: url(background-home-desktop\ copy.png);
+    background-repeat: no-repeat;
+}
+ul li{
+    color: #dad7d7;
+    list-style-type:decimal-leading-zero;
+    margin: 30px 30px;
+    padding: 0;
+    float: left;
+    font-size: larger;
+}
+ul{
+    margin-top: 40px;
+    overflow: auto;
+    margin-left: 750px;
+    background-color: #415b7e ;
+    color: black;
+}
+ul::after{
+    width: 511px;
+    height: 1px;
+    background-color: #eee;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 263px;
+    top: 42px;
+    opacity: 0.5;
+}
+ul::before{
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    content: "EXPLORE";
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -20px;
+    right: 234px;
+    text-align:center;
+    line-height: 200px;
+    font-size: xx-large;
+}
+.sided-text{
+    color: #dad7d7;
+    margin-left: 180px;
+    margin-top: 150px;
+    width: 500px;
+}
+.sided-text::after{
+    content: url(Untitled-1.png);
+    display: inline-block;
+    top: 0;
+    position: absolute;
+}
+.sided-text::before{
+    content: url(Untitled-1.png);
+    display: inline-block;
+    top: 71px;
+    left: 50px;
+    position: absolute;
+}
+.sided-text p:first-of-type{
+font-size:25px;
+}
+.sided-text h1{
+    font-size: 60px;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
