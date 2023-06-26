@@ -1,0 +1,177 @@
+/*Start variables & global styles*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*End variables & global styles*/
+/* Start intro-page */
+.navbar{
+    background-color: transparent;
+    font-size: 16px;
+}
+.navbar-nav{
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.navbar-nav li{
+    box-sizing: border-box;
+}
+.navbar-brand, .nav-link{
+    color: white;
+}
+.navbar-brand:hover, .nav-link:hover
+{
+    color: white;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    font-weight: 400px;
+    font-size: 0.9rem;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.intro
+{
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.text-and-icons{
+    margin-left: 15%;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 37%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.intro-txt
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro-txt h2{
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.intro-txt h1{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.icons-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icons-intro svg{
+    padding: 10px;
+    margin-left: 0.5rem;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.animated::after{
+    content: '';
+    animation: larry 7s infinite forwards;
+    font-weight: 400;
+}
+@keyframes larry {
+    0% {
+        content: 'L';
+    }
+    4% {
+        content: 'La';
+    }
+    8% {
+        content: 'Lar';
+    }
+    12%{
+        content: 'Larr';
+    }
+    16%{
+        content: 'Larry';
+    }
+    20%{
+        content: 'Larry ';
+    }
+    24%{
+        content: 'Larry D';
+    }
+    28%{
+        content: 'Larry Da';
+    }
+    32%{
+        content: 'Larry Dan';
+    }
+    36%{
+        content: 'Larry Dani';
+    }
+    40%{
+        content: 'Larry Danie';
+    }
+    44%{
+        content: 'Larry Daniels';
+    }
+    46%{
+        content: 'Larry Daniel';
+    }
+    50%{
+        content: 'Larry Danie';
+    }
+    54%{
+        content: 'Larry Dani';
+    }
+    58%{
+        content: 'Larry Dan';
+    }
+    62%{
+        content: 'Larry Da';
+    }
+    66%{
+        content: 'Larry D';
+    }
+    70%{
+        content: 'Larry ';
+    }
+    74%{
+        content: 'Larry';
+    }
+    78%{
+        content: 'Larr';
+    }
+    82%{
+        content: 'Lar';
+    }
+    86%{
+        content: 'La';
+    }
+    90%{
+        content: 'L';
+    }
+}
+.active::after{
+    content: '';
+    height: 1.6px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+/* End intro-page */
