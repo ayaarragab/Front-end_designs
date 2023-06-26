@@ -175,3 +175,59 @@
     display: block;
 }
 /* End intro-page */
+/* Start about */
+.col img{
+    width: 80%;
+    height: 100%;
+}
+.progress-bar
+{
+    background-color: #212529;
+}
+.progress-bar div{
+    font-size: 0.99999rem;
+    line-height: 20px;
+}
+.about-txt small{
+    font-size: 1rem;
+}
+.progress{
+    height: 28px;
+    width: 100%;
+}
+.about-txt h2{
+    font-weight: 600;
+}
+.abt-btns button:nth-of-type(1){
+    background-color: #212529;
+    border-color: white;
+    width: 130px;
+}
+.abt-btns button:nth-of-type(2){
+    background-color: white;
+    color: #212529;
+    width: 130px;
+}
+.abt-btns button:nth-of-type(1):hover{
+    animation: opacity 1.5s;
+    background-color: white;
+    color: #212529;
+    border-color: #212529;
+
+}
+.abt-btns button:nth-of-type(2):hover{
+    animation: opacity 1.5s;
+    background-color: #212529;
+    color: white;
+    border-color: white;
+
+}
+@keyframes opacity {
+    0%{
+     opacity: 0%;   
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+/* End about */
