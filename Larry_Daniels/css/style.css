@@ -176,6 +176,9 @@
 }
 /* End intro-page */
 /* Start about */
+.about{
+    height: fit-content;
+}
 .col img{
     width: 80%;
     height: 100%;
@@ -231,3 +234,6 @@
     }
 }
 /* End about */
+/* Start Services */
+
+/* End Services */
