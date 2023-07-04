@@ -15,17 +15,17 @@
 .navbar-nav li{
     box-sizing: border-box;
 }
-.navbar-brand, .nav-link{
+.navbar-brand, .navbar .nav-link{
     color: white;
 }
-.navbar-brand:hover, .nav-link:hover
+.navbar-brand:hover, .navbar .nav-link:hover
 {
     color: white;
 }
 .navbar-brand{
     font-weight: bold;
 }
-.nav-link{
+.navbar .nav-link{
     font-weight: 400px;
     font-size: 0.9rem;
 }
@@ -167,7 +167,7 @@
         content: 'L';
     }
 }
-.active::after{
+.navbar .active::after{
     content: '';
     height: 1.6px;
     width: 100%;
@@ -305,4 +305,53 @@ font-weight: bold;
         margin-left: -1.5rem!important;
     }
 }
+.card-icon svg:hover{
+    animation: opacity 1.5s;
+    background-color: #212529;
+    color: white;
+    border-color: white;
+}
+.card-icon{
+    margin-bottom: 15px;
+}
 /* End Services */
+/* Start portfolio */
+.portfolio .nav-link{
+    font-weight: bold;
+    color: #212529;
+}
+.portfolio .active::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #212529;
+    display: block;
+}
+.dots-s-2{
+    background-image: url(../imgs/dots.png);
+    height: 50px;
+    width: 40%;
+}
+.nav-tabs .nav-item button{
+    background-color: white;
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.nav-tabs .nav-item{
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}
+.nav-link:focus,
+.nav-link:active {
+  outline: none;
+  box-shadow: none;
+  color: #212529 !important;
+  cursor: pointer;
+}
+.nav-tabs {
+border-bottom: none !important;
+}
+/* End portfolio */
