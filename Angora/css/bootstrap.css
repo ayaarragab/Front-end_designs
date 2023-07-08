@@ -6064,7 +6064,7 @@ textarea.form-control-lg {
 
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
-  transform: translateX(50%);
+  transform: translateX(100%);
 }
 
 .carousel-item-prev:not(.carousel-item-end),
